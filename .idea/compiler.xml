@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="keyboardkeyclicksimulation12" />
         <module name="KeyboardEasyType" />
+        <module name="gitImportProjectTest" />
       </profile>
     </annotationProcessing>
   </component>

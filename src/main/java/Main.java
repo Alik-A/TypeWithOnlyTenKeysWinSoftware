@@ -14,9 +14,6 @@ public class Main {
         OptionsWin.readAndSetPref();
         // start the thread which will block 0-9 numeric keyboard input
         NumericKeysInputBlock.blockWindowsKey(new CatchClickedKeys(new SetInputLang()));
-        SysTray sysTray = new SysTray();
-        ManageKeybdLayoutsAndLangsWin test = new ManageKeybdLayoutsAndLangsWin();
-        new AboutWin();
-//        GuideUseWin guideUseWin = new GuideUseWin();
+        new SysTray();
     }
 }

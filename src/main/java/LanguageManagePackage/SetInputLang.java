@@ -7,7 +7,6 @@ import com.sun.jna.platform.win32.User32;
 import com.sun.jna.platform.win32.WinDef;
 import ManageKeyboardTapAndPerformClicks.mainWinGUIManage.MainlyGUIWin;
 
-import javax.annotation.Resource;
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.KeyEvent;

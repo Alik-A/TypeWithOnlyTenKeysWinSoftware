@@ -25,7 +25,9 @@ public class SysTray {
     public SysTray() {
 
         this.toolkit = Toolkit.getDefaultToolkit();
-        this.sysTrayImg = this.toolkit.getImage(getClass().getResource("/OptionsAndSystemTray/icon.png"));
+        System.out.println(getClass().getResource(""));
+
+        this.sysTrayImg = this.toolkit.getImage(getClass().getResource("icon.png"));
 
 
         this.sysTray = SystemTray.getSystemTray();

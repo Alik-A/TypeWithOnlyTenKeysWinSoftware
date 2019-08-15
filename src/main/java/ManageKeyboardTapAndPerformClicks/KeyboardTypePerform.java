@@ -30,8 +30,7 @@ public class KeyboardTypePerform {
     // and special actions and for play the typing sound
     public KeyboardTypePerform(Robot robot, SetInputLang manageInputLang) {
         this.robot = robot;
-
-        URL audioSrc = getClass().getResource("/ManageKeyboardTapAndPerformClicks/keyboard.wav");
+        URL audioSrc = getClass().getResource("keyboard.wav");
         this.manageInputLang = manageInputLang;
         // initialize the needed objects to play the tapping sound when some key be typing by this program
         try {
