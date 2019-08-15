@@ -1,0 +1,14 @@
+extraLblsOnOff: 
+false
+lockSelectedRow: 
+false
+scanKeysOnOff: 
+false
+scanSpeed: 
+1250
+selectedVK_CODE: 
+79
+selectedVKCodeInd: 
+0
+typeSound: 
+true
